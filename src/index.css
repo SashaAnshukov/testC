@@ -1,0 +1,15 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts/fonts.css');
+
+@import url('./components/App/App.css');
+@import url('./components/App/__container/App__container.css');
+
+@import url('./components/Title/Title.css');
+
+@import url('./components/Main/__elements/Main__elements.css');
+@import url('./components/Card/Card.css');
+@import url('./components/Card/__rectangle/Card__rectangle.css');
+@import url('./components/Card/__description/Card__description.css');
+@import url('./components/Card/__title/Card__title.css');
+@import url('./components/Card/__taste/Card__taste.css');
+@import url('./components/Card/__quantity/Card__quantity.css');

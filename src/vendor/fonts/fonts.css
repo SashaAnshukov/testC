@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Exo 2.0-Thin';
+    font-style:  Thin;
+    font-weight: 100;
+    src: url("./Exo2.0-Thin.otf") format("woff");
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    font-style:  Bold;
+    font-weight: 700;
+    src: url("./trebuchet-ms.ttf") format("woff");
+}

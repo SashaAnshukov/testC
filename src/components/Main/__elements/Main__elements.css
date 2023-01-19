@@ -1,0 +1,8 @@
+.Main__elements {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 320px);
+    column-gap: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
