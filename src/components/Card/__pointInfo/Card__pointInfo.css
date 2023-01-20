@@ -1,0 +1,12 @@
+.Card__pointInfo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #1698D9;
+    margin: 193px 16px 16px 224px;
+}

@@ -1,0 +1,10 @@
+.Card__text-link {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    align-self:center;
+    color: #FFFFFF;
+    margin: 14px auto 0 auto;
+}

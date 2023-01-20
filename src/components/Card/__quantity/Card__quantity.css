@@ -1,9 +1,11 @@
 .Card__quantity {
     max-width: 127px;
+    height: 48px;
     font-family: 'Trebuchet MS';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     color: #666666;
+    margin: 0 auto 0 51px;
 }

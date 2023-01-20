@@ -8,7 +8,7 @@ function Main() {
             id: Math.random().toString(16).slice(2),
             taste: 'с фуа-гра', 
             quantity: '10 порций' + '\xa0\xa0\xa0\xa0\xa0' + ' мышь в подарок',
-            weight: '0.5' 
+            weight: '0,5' 
         }, 
         { 
             id: Math.random().toString(16).slice(2),
