@@ -1,4 +1,4 @@
-.Card__text-link {
+.Card__text {
     font-family: 'Trebuchet MS';
     font-style: normal;
     font-weight: 400;
@@ -7,4 +7,5 @@
     align-self:center;
     color: #FFFFFF;
     margin: 14px auto 0 auto;
+    text-align: center;
 }

@@ -9,6 +9,7 @@
 @import url('./components/Main/__elements/Main__elements.css');
 @import url('./components/Card/Card.css');
 @import url('./components/Card/__rectangle/Card__rectangle.css');
+@import url('./components/Card/__rectangle/_border/Card__rectangle_border.css');
 @import url('./components/Card/__description/Card__description.css');
 @import url('./components/Card/__title/Card__title.css');
 @import url('./components/Card/__taste/Card__taste.css');
@@ -16,4 +17,5 @@
 @import url('./components/Card/__pointInfo/Card__pointInfo.css');
 @import url('./components/Card/__pointInfo/_weight/Card__pointInfo_weight.css');
 @import url('./components/Card/__pointInfo/_unit/Card__pointInfo_unit.css');
-@import url('./components/Card/__text-link/Card__text-link.css');
+@import url('./components/Card/__text/Card__text.css');
+@import url('./components/Card/__text/_link/Card__text_link.css');
