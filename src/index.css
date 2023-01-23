@@ -17,5 +17,6 @@
 @import url('./components/Card/__pointInfo/Card__pointInfo.css');
 @import url('./components/Card/__pointInfo/_weight/Card__pointInfo_weight.css');
 @import url('./components/Card/__pointInfo/_unit/Card__pointInfo_unit.css');
+@import url('./components/Card/__text-info/Card__text-info.css');
 @import url('./components/Card/__text/Card__text.css');
 @import url('./components/Card/__text/_link/Card__text_link.css');

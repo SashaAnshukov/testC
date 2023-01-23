@@ -12,14 +12,9 @@
 }
 
 .Card__rectangle_red {
-    width: 320px;
-    height: 480px;
     background: #D91667;
-    border-radius: 12px;
-    background-repeat: no-repeat;
-    padding-top: 4px;
-    --mask: 
-    linear-gradient(135deg,#0000 28.28px,#000 0);
-    -webkit-mask: var(--mask);
-    mask: var(--mask);
+}
+
+.Card__rectangle_grey {
+    background: #B3B3B3;
 }

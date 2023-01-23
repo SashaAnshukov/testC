@@ -1,4 +1,6 @@
 .Card__pointInfo {
+    top:-96px;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -8,11 +10,13 @@
     height: 80px;
     border-radius: 50%;
     background: #1698D9;
-    margin: 193px 16px 16px 224px;
+    margin: 0px 16px 16px 224px;
 }
 
 .Card__pointInfo_red {
-    
     background: #D91667;
-    
+}
+
+.Card__pointInfo_grey {
+    background: #B3B3B3;
 }

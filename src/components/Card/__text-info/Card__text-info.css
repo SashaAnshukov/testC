@@ -1,0 +1,12 @@
+.Card__text-info{
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    flex-direction: row;
+    margin: 14px auto 0 auto;
+    text-align: center;
+    justify-content: center;
+}
