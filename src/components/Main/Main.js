@@ -31,14 +31,13 @@ function Main() {
             textIfTheProductIsOver: 'с курой закончился.',
             inStock: 0, 
         }
-    ];  
-
+    ];
     
     return (
         <main>
             <section className="Main__elements">
                 {initialCards.map (item => {
-                    return <Card card={item} key={item.id}/>
+                    return <Card card={item}  key={item.id}/>
                 })}
             </section>
         </main>

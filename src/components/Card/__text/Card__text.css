@@ -1,6 +1,10 @@
 .Card__text {
-    
     align-self:center;
     color: #FFFFFF;
+    margin: 0;
+}
+
+.Card__text_yelow {
+    color: #FFFF66;
     margin: 0;
 }

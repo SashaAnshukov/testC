@@ -2,9 +2,18 @@
     width: 205px;
     padding-top: 21px;
     margin: 0 64px 5px 51px;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #666666;
+}
+
+.Card__description_mouseLeave{
+    width: 205px;
+    padding-top: 21px;
+    margin: 0 64px 5px 51px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E62E7A;
 }

@@ -25,6 +25,7 @@
     margin: 0 4px 4px 4px;
     -webkit-mask: var(--mask);
     mask: var(--mask);
+    opacity: 0.4;
 }
 
 .Card__rectangle-cover {
@@ -32,6 +33,5 @@
     background-image: url(../../../images/Photo.png);
     background-repeat: no-repeat;
     background-position: -30px 210px;
-    opacity: 0.4;
     height: 476px;
 }
