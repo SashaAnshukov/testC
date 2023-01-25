@@ -4,22 +4,23 @@ function Card({card}) {
 
     const [selectedCard, setSelectedCard] = useState(false);
     const [showText, setShowText] = useState('Котэ не одобряет?');
-    const [isFirstRun, setFirstRun] = useState(true)
+    const [isFirstRun, setFirstRun] = useState(true) //стэйт для первого события наведения на карточку
+    const [onMouseIn, setOnMouseIn] = useState(false);
 
-    function handleMouseEnter (event) {
-        isFirstRun ? setShowText('Сказочное заморское яство') : setShowText('Котэ не одобряет?')
+    function handleMouseEnter () {
+        isFirstRun ? setShowText('Сказочное заморское яство') : setShowText('Котэ не одобряет?');
+        setOnMouseIn(true)
     }
-    function handleMouseLeave (event) {
+    function handleMouseLeave () {
         setFirstRun(false);
-        setShowText('Сказочное заморское яство')
+        setShowText('Сказочное заморское яство');
+        setOnMouseIn(false)
     }
+
+    console.log(handleMouseLeave)
 
     const CardDescriptionClassName = (
-        `Card__description ${selectedCard ? 'Card__description_mouseLeave' : 'Card__description'} `
-    );
-
-    const CardDescriptionText = (
-        selectedCard ? 'a' : 'b'
+        `Card__description ${selectedCard && onMouseIn ? 'Card__description_mouseLeave' : 'Card__description'} `
     );
 
     const selectedCardClassName = (
@@ -45,24 +46,19 @@ function Card({card}) {
     const choosedClassName = (card.inStock == 0 ? 'Card__rectangle_disabled' : 'Card__rectangle');
 
     function handleClick() {
-        !selectedCard ? setSelectedCard(true) : setSelectedCard(false)
+        !selectedCard && card.inStock !== 0 ? setSelectedCard(true) : setSelectedCard(false)
         setShowText('Сказочное заморское яство')
+        setOnMouseIn(false)
     };
     
     return (
         <article className="Card">
             <div className={choosedCardClassName} onClick={handleClick}>
                 <div className={choosedClassName}>
-                    <div className='Card__rectangle-cover' onMouseLeave={handleMouseLeave}
-                    onMouseEnter={handleMouseEnter}> 
+                    <div className='Card__rectangle-cover' onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter}> 
                         <div className="Card__corner"></div>
-                        <p className={CardDescriptionClassName}>
-                            {selectedCard
-                            ? 
-                            showText
-                            :
-                            ('Сказочное заморское яство')
-                            }
+                        <p className={CardDescriptionClassName} >
+                            {selectedCard ? showText : ('Сказочное заморское яство')}
                         </p>
                         <h1 className="Card__title">Нямушка</h1>
                         <h2 className="Card__taste">{card.taste}</h2>
