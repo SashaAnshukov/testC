@@ -9,6 +9,7 @@
     --mask: 
     linear-gradient(135deg,#0000 28.28px,#000 0);
     margin: 0 4px 4px 4px;
+    padding: 0;
     -webkit-mask: var(--mask);
     mask: var(--mask);
 }

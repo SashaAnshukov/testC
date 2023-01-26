@@ -11,10 +11,22 @@
     mask: var(--mask);
 }
 
+.Card__rectangle_border:hover .Card__pointInfo {
+    background: #2EA8E6;
+}
+
 .Card__rectangle_red {
     background: #D91667;
 }
 
+.Card__rectangle_red:hover .Card__pointInfo_red {
+    background: #E52E7A;
+}
+
 .Card__rectangle_grey {
+    background: #B3B3B3;
+}
+
+.Card__rectangle_grey:hover .Card__pointInfo_grey {
     background: #B3B3B3;
 }
