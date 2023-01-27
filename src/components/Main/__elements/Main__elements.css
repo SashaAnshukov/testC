@@ -13,12 +13,3 @@
         flex-wrap: wrap;
     }
 }
-
-
-@media screen and (max-width: 820px) {
-    .Main__elements {
-        /*grid-column-start: -2;
-        grid-template-columns: repeat(2, 320px);
-        justify-items: center;*/
-    }
-}

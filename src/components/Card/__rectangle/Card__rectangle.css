@@ -12,6 +12,7 @@
     padding: 0;
     -webkit-mask: var(--mask);
     mask: var(--mask);
+    cursor: pointer;
 }
 
 .Card__rectangle_disabled {
